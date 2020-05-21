@@ -62,7 +62,7 @@ body {
 
 
 .bg-main-img{
-    background-image: url("/img/main.jpg");
+    background-image: url("../img/main.jpg");
 
   /* Center and scale the image nicely */
   background-position: center;
