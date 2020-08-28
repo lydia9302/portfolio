@@ -82,6 +82,7 @@ body {
     /* text-align: left;
     padding-left: 55%; */
     margin-bottom: 40px;
+    font-size: 24px;
 }
 
 .bg-main-img h5
@@ -157,6 +158,311 @@ h5 {
 .f-h5 {
     /* color: #ffbf00; */
     color: #fff;
+}
+
+/* pf-General
+==================================================*/
+
+#section-pf {
+    /* max-width: 1280px; */
+    min-height: 800px;
+    /* margin: 0 auto; */
+}
+
+#section-pf-footer {
+    min-height: 70px;
+}
+
+.tip {
+    background-color: #fff;
+}
+
+.pf-footer-name {
+    font-size: 10pt;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-darkgrey {
+    color: #231f20;
+}
+
+.text-black {
+    color:#000;
+}
+
+.text-red {
+    color: #ee2525;
+}
+
+/* pf-Sincook
+==================================================*/
+
+.bg-sincook-red {
+    background-color: #ee2525;
+}
+
+.bg-sincook {
+    background-image: url("/img/pf_sincook/sincook_section1_bg.png");
+    /* height: 1400px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+.bg-sincook .brand {
+    font-family: 'Jost', sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+.bg-sincook .pf-title {
+    font-family: 'Jost', sans-serif;
+    font-size: 30pt;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.bg-sincook .pf-title-description {
+    font-family: 'Jost', sans-serif;
+    font-size: 20pt;
+    font-weight: 300;
+    margin-bottom: 80px;
+}
+
+.bg-sincook-sec2 {
+    background-image: url("/img/pf_sincook/sincook_section2_bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+.bg-sincook-sec5 {
+    background-image: url("/img/pf_sincook/sincook_section5_bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+.bg-sincook-sec7 {
+    background-image: url("/img/pf_sincook/sincook_section7_bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+.bg-sincook-sec9 {
+    background-image: url("/img/pf_sincook/sincook_section9_bg.png");
+    background-position: inherit;
+    background-repeat: no-repeat;
+    min-height: 450px;
+    /* background-size: cover; */
+}
+
+.bg-sincook-sec10 {
+    background-image: url("/img/pf_sincook/sincook_section10_bg.png");
+    background-position: inherit;
+    background-repeat: no-repeat;
+    /* min-height: 950px; */
+    /* background-size: cover; */
+}
+
+.bg-sincook-sec11 {
+    min-height: 800px;
+}
+
+.bg-sincook-sec13 {
+    background-color: #e4e3e3;
+}
+
+.bg-sincook-sec3-height {
+    min-height: 700px;
+}
+
+.bg-sincook-sec2 .pf-title {
+    font-family: 'Jost', sans-serif;
+    font-size: 30pt;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.sincook-sec-subtitle {
+    font-size: 13pt;
+    font-family: 'Jost', sans-serif;
+    line-height: 1.4;
+    color: #10162b;
+}
+
+.sincook-mt {
+    padding: 100px;
+}
+
+.bg-darkgrey {
+    background-color: #35363a;
+}
+
+.bg-lightgrey {
+    background-color: #e9e9e9;
+}
+
+.bg-lightpink {
+    background-color: #f1ebeb;
+}
+
+.sincook-context {
+    font-size: 9pt;
+    font-family: 'Jost', sans-serif;
+    /* line-height: 1.4; */
+    /* color: #10162b; */
+}
+
+.sincook-font {
+    font-family: 'Jost', sans-serif;
+}
+
+.bg-sincook-sec9 h1 {
+    text-align: left;
+    margin-left: 50px;
+    font-size: 40pt;
+}
+
+
+/* pf-Domino
+==================================================*/
+
+.bg-domino {
+    background-color: #456289 !important;
+}
+
+.bg-domino-sec2 {
+    background-image: url("/img/pf_domino/section2_bg.png");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+.bg-domino-sec3 {
+    background-color: #ffffff !important;
+}
+
+.bg-domino-sec4 {
+    background-image: url("/img/pf_domino/section4_bg.png");
+    /* height: 1400px; */
+    background-position: top;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+.bg-domino-sec5 {
+    background-color: #f3f1ee !important;
+}
+
+
+
+.brand {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+.pf-title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30pt;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.pf-title-description {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20pt;
+    font-weight: 300;
+    margin-bottom: 80px;
+}
+
+.pf-li-container-domino {
+    margin-bottom: 17px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.pf-li-title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12pt;
+    font-weight: 200;
+    /* margin-right: 30px; */
+
+}
+
+.bullet-domino li i{
+    color: #fff !important;
+    margin-bottom: 218px;
+}
+
+.pf-li-context {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14pt;
+    font-weight: 400;
+
+}
+
+.domino-topbanner {
+    position: absolute;
+    left: 50%;
+    /* bottom: 0%;  */
+    width: 100%;
+    max-width: 800px;
+}
+
+.domino-sec2-title {
+    text-align: center;
+}
+
+.domino-sec3-title {
+    text-align: left;
+}
+
+.domino-sec-subtitle{
+    font-size: 13pt;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.4;
+    color: #10162b;
+}
+
+.domino-sec2-title img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.domino-context {
+    font-size: 9pt;
+    font-family: 'Nunito Sans', sans-serif;
+    /* line-height: 1.4; */
+    color: #10162b;
+}
+
+.mission-context p{
+    padding-right: 0;
+    padding-left: 20px;
+}
+
+.right{
+    position: absolute;
+    right: 0px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 /* preloader
@@ -303,6 +609,7 @@ h5 {
 }
 
 .box-primary-nav-trigger .box-menu-text {
+    font-size: 14px;
     color: #393939;
     text-transform: uppercase;
     font-weight: 600;
@@ -1319,13 +1626,7 @@ textarea:focus {
   .page-main p + p {
     margin-top: 10px;
   }
-  
-  .background-domino {
-      background: url(/img/pf_domino/domino_01.jpg) no-repeat
-        center / cover;
-      background-blend-mode: luminosity;
-      background-color: #456289;
-  }
+
 
 
 
@@ -1443,6 +1744,10 @@ textarea:focus {
     .pf-title h1 {
         font-size: 30px;
         line-height: 30px;
+    }
+
+    .bg-sincook-sec5 svg {
+        max-width: 315px;
     }
 
 
