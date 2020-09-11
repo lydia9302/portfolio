@@ -212,7 +212,7 @@ h5 {
 ==================================================*/
 
 .bg-levup {
-    background-image: url("/img/pf_levup/levup_section1_bg.png");
+    background-image: url("/img/pf_levup/levup_section1_bg.jpg");
     /* height: 1400px; */
     background-position: center;
     background-repeat: no-repeat;
@@ -255,7 +255,7 @@ h5 {
 }
 
 .bg-levup-sec9 {
-    background-image: url("/img/pf_levup/levup_mockup2.png");
+    background-image: url("/img/pf_levup/levup_mockup2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
