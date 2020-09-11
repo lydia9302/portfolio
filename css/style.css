@@ -303,7 +303,7 @@ h5 {
 }
 
 .bg-sincook {
-    background-image: url("/img/pf_sincook/sincook_section1_bg.png");
+    background-image: url("/img/pf_sincook/sincook_section1_bg.jpg");
     /* height: 1400px; */
     background-position: center;
     background-repeat: no-repeat;
@@ -332,7 +332,7 @@ h5 {
 }
 
 .bg-sincook-sec2 {
-    background-image: url("/img/pf_sincook/sincook_section2_bg.png");
+    background-image: url("/img/pf_sincook/sincook_section2_bg_.png");
     background-position: center;
     background-repeat: no-repeat;
     /* background-size: cover; */
@@ -353,7 +353,7 @@ h5 {
 }
 
 .bg-sincook-sec9 {
-    background-image: url("/img/pf_sincook/sincook_section9_bg.png");
+    background-image: url("/img/pf_sincook/sincook_section9_bg.jpg");
     background-position: inherit;
     background-repeat: no-repeat;
     min-height: 450px;
