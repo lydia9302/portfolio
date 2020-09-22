@@ -208,6 +208,180 @@ h5 {
     color: #0439d9;
 }
 
+.text-ircc-red {
+    color: #a60505;
+}
+
+/* pf-Ircc
+==================================================*/
+
+#section-pf-ircc {
+    min-height: 600px;
+}
+
+.bg-ircc {
+    background-image: url("/img/pf_ircc/ircc_bg.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-size: cover; */
+}
+
+.bg-ircc-sec9 {
+    background-image: url("/img/pf_ircc/ircc_bg02.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-size: cover; */
+}
+
+.bg-ircc-sec12 {
+    background-image: url("/img/pf_ircc/ircc_bg03.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-size: cover; */
+}
+
+.bg-ircc-sec1 .brand {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16pt;
+    font-weight: 600;
+    margin: 20px 0 10px 0;
+}
+
+.bg-ircc-sec1 .pf-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 40pt;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.ircc-context {
+    font-size: 10pt;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.ircc-context.bold-typo{
+    font-size: 10pt;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #10162b;
+}
+
+.bg-ircc-sec3 img {
+    width: 100%;
+}
+
+.bg-ircc-sec4 img {
+    width: 100%;
+}
+
+.bg-ircc-sec5 img {
+    width: 100%;
+}
+
+.bg-ircc-sec6 img {
+    width: 100%;
+}
+
+.bg-ircc-sec7 img {
+    width: 100%;
+}
+
+.bg-ircc-sec8 img {
+    width: 100%;
+}
+
+.bg-ircc-sec9 img {
+    width: 100%;
+}
+
+.bg-ircc-sec10 img {
+    width: 100%;
+}
+
+.bg-ircc-sec11 img {
+    width: 100%;
+}
+
+.pf-title-ircc {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 24pt;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.pf-subtitle-ircc {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14pt;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.pf-subcategory-ircc {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 24pt;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #d90b0b;
+}
+
+.pf-listtitle-ircc {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 12pt;
+    font-weight: 700;
+}
+
+.pf-reftitle-ircc {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8pt;
+    font-weight: 100;
+    font-style: italic;
+    color: #a60505;
+}
+
+.pf-ref-ircc {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8pt;
+    font-weight: 100;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: gray;
+    text-align: right;
+}
+
+.greybox {
+    background-color: #d9d9d9;
+    min-height: 460px;
+}
+
+.redbox-ircc {
+    background-color: #97272c;
+    min-height: 460px;
+}
+
+.redbox-ircc li {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10pt;
+    font-weight: 300;
+    text-align: center;
+}
+
+.ircc-need {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20pt;
+    font-weight: 300;
+    margin-top: 60px;
+}
+
+.bg-ircc-red {
+    background-color: #a60505;
+}
+
 /* pf-Levup
 ==================================================*/
 
