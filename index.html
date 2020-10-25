@@ -29,7 +29,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body class="bg-portfolio">
 
     <!-- Preloader -->
     <div id="preloader">
@@ -42,8 +42,8 @@
     </div>
     <!-- end Preloader -->
 
-    <div class="container-fluid bg-main-img">
-        <!-- box header -->
+    <div class="container-fluid">
+        <!-- box-header -->
         <header class="box-header">
             <div class="box-logo">
                 <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
@@ -52,16 +52,14 @@
             <a class="box-primary-nav-trigger" href="#0">
                 <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
             </a>
-            <!-- box-primary-nav-trigger -->
         </header>
-        <!-- end box header -->
+        <!-- end box-header -->
 
-        <!-- nav -->
-        <nav>
+         <!-- nav -->
+         <nav>
             <ul class="box-primary-nav">
                 <!-- <li class="box-label">About me</li> -->
-                <li><a class="menu-on" href="index.html">What's up</a> <i class="ion-ios-circle-filled color"></i></li>
-                <li><a href="portfolio.html">What I do</a></li>
+                <li><a class="menu-on" href="index.html">What I do</a><i class="ion-ios-circle-filled color"></i></li>
                 <li><a href="about.html">Who I am</a></li>
                 <!-- <li><a href="services.html">services</a></li> -->
                 <!-- <li><a href="contact.html">contact me</a></li> -->
@@ -75,204 +73,494 @@
             </ul>
         </nav>
         <!-- end nav -->
-
-        <!-- box-intro -->
-        <section id= "bg-animation" class="box-intro">
-            <div class="table-cell">
-                <h3>I'm <span class= "name f-h5">Borim Kim</span></h3>
-                <h1 class="box-headline letters rotate-2">
-                    i
-                    <span class="box-words-wrapper">
-                        <b class="is-visible discover">discover,</b>
-                        <b class="define">&nbsp;&nbsp;&nbsp;define,</b>
-                        <b class="develop">&nbsp;develop,</b>
-                        <b class="deliver">&nbsp;&nbsp;deliver.</b>
-                    </span>
-		        </h1>
-                <h5>UX·UI  |  Motion Graphics  |  Visual Design</h5>
-            </div>
-
-            <div class="mouse">
-                <div class="scroll"></div>
-            </div>
-
-        </section>
-        <!-- end box-intro -->
     </div>
 
-    <!-- portfolio div -->
-    <div class="portfolio-div">
-        <div class="portfolio">
-            <div class="no-padding portfolio_container">
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6  UXUI bi">
-                    <a href="portfolio_sincook.html" class="portfolio_item">
-                        <img src="img/pf_sincook/sincook_thumb.jpg" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>SINCOOK: Cooking App</span>
-                                    <em>UX·UI</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
+    <!-- top bar -->
+    <div class="top-bar">
+                <!-- box-intro -->
+                <section id= "bg-animation" class="box-intro">
+                    <div class="table-cell">
+                        <h3>Hi, this is <span class= "name f-h5">B</span><span class= "f-h5">ORIM KIM.</span></h3>
+                        <h1 class="box-headline letters rotate-2">
+                            i
+                            <span class="box-words-wrapper">
+                                <b class="is-visible discover">discover,</b>
+                                <b class="define">&nbsp;&nbsp;&nbsp;define,</b>
+                                <b class="develop">&nbsp;develop,</b>
+                                <b class="deliver">&nbsp;&nbsp;deliver.</b>
+                            </span>
+                        </h1>
+                    </div>
+                </section>
+                <!-- end box-intro -->
+    </div>
+    <!-- end top bar -->
 
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 motiongraphics bi">
-                    <a href="portfolio_logoreveal.html" class="portfolio_item">
-                        <img src="img/pf_boost-e/booste_thumb01.jpg" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Boost-e Logo Reveal(2D)</span>
-                                    <em>Motion Graphics</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+    <!-- main container -->
+    <div class="main-container portfolio-inner clearfix">
+        <!-- portfolio div -->
+        <div class="portfolio-div">
+            <div class="portfolio">
+                <!-- portfolio_filter -->
+                <div class="categories-grid wow fadeInLeft">
+                    <nav class="categories text-center">
+                        <ul class="portfolio_filter">
+                            <li><a href="" class="active" data-filter="*">All</a></li>
+                            <li><a href="" data-filter=".UXUI">UX·UI</a></li>
+                            <li><a href="" data-filter=".motiongraphics">MOTION GRAPHICS</a></li>
+                            <li><a href="" data-filter=".visual">VISUAL</a></li>
+                            <!-- <li><a href="" data-filter=".bi">BI</a></li>
+                            <li><a href="" data-filter=".game">Game</a></li> -->
+                        </ul>
+                    </nav>
                 </div>
-                <!-- end single work -->
+                <!-- portfolio_filter -->
 
-                <!-- single work -->
-                <div class="col-md-6 col-sm-12 visual">
-                    <a href="portfolio_hardware.html" class="portfolio_item">
-                        <img src="img/pf_hardware/hardware_thumb.jpg" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Hardware</span>
-                                    <em>Visual</em>
+                <!-- portfolio_container -->
+                <div class="no-padding portfolio_container clearfix">
+                    <!-- single work: Sincook -->
+                    <div class="col-md-4 col-sm-6  UXUI">
+                        <a href="portfolio_ircc.html" class="portfolio_item">
+                            <img src="img/pf_ircc/ircc_thumb.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>IRCC Client Support Agent Chat-bot</span>
+                                        <em>UX·UI</em>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
+                        </a>
+                    </div>
+                    <!-- end single work -->
 
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 motiongraphics">
-                    <a href="portfolio_friends.html" class="portfolio_item">
-                        <img src="img/pf_friends/friends_thumb.jpg" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Friends</span>
-                                    <em>Motion Graphics</em>
+                    <!-- single work: Sincook -->
+                    <div class="col-md-4 col-sm-6  UXUI">
+                        <a href="portfolio_sincook.html" class="portfolio_item">
+                            <img src="img/pf_sincook/sincook_thumb.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>SINCOOK: Cooking App</span>
+                                        <em>UX·UI</em>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
+                        </a>
+                    </div>
+                    <!-- end single work -->
 
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 UXUI">
-                    <a href="portfolio_domino.html" class="portfolio_item">
-                        <img src="img/pf_domino/domino_thumb.jpg" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Domino's Pizza Online Order System</span>
-                                    <em>UX·UI</em>
+                    <!-- single work: Levup -->
+                    <div class="col-md-4 col-sm-6  UXUI">
+                        <a href="portfolio_levup.html" class="portfolio_item">
+                            <img src="img/pf_levup/levup_thumb.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>LevUp: Game Community App</span>
+                                        <em>UX·UI</em>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
+                        </a>
+                    </div>
+                    <!-- end single work -->                    
+                    
+                    <!-- single work: Friends -->
+                    <div class="col-md-4 col-sm-6 motiongraphics">
+                        <a href="portfolio_friends.html" class="portfolio_item">
+                            <img src="img/pf_friends/friends_thumb.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Friends</span>
+                                        <em>Motion Graphics</em>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end single work -->                    
 
-                <!-- single work -->
-                <div class="col-md-6 col-sm-12 visual">
-                    <a href="portfolio_poster.html" class="portfolio_item">
-                        <img src="img/pf_poster/poster_thumb.jpg" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Gone with the Wind: Movie Poster</span>
-                                    <em>Visual</em>
+                    <!-- single work: Dominos -->
+                    <div class="col-md-4 col-sm-6 UXUI visual">
+                        <a href="portfolio_domino.html" class="portfolio_item">
+                            <img src="img/pf_domino/domino_thumb.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Domino's Pizza Online Order System</span>
+                                        <em>UX·UI</em>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
+                        </a>
+                    </div>
+                    <!-- end single work -->
 
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 UXUI">
-                    <a href="portfolio_audi.html" class="portfolio_item">
-                        <img src="img/pf_audi/audi_thumb.jpg" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>AUDI Korea Mobile CRM App & Customer Apps</span>
-                                    <em>UX·UI</em>
+                    <!-- single work: Prestorunners -->
+                    <div class="col-md-4 col-sm-6 UXUI visual">
+                        <a href="portfolio_prestorunners.html" class="portfolio_item">
+                            <img src="img/pf_prestorunners/presto_thumb.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Presto Runners: Mobile Game App in Public Transportation</span>
+                                        <em>UX·UI / Visual</em>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
+                        </a>
+                    </div>
+                    <!-- end single work -->  
 
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 motiongraphics game">
-                    <a href="portfolio_levup.html" class="portfolio_item">
-                        <img src="img/pf_levup/levup_thumb.jpg" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>LevUp: Game Community App</span>
-                                    <em>UX·UI</em>
+                    <!-- single work: Bee-cycle -->
+                    <div class="col-md-4 col-sm-6 UXUI">
+                        <a href="portfolio_beecycle.html" class="portfolio_item">
+                            <img src="img/pf_beecycle/beecycle_thumb.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Bee-Cycle: Up-Cycling Funding Platform</span>
+                                        <em>UX·UI</em>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
+                        </a>
+                    </div>
+                    <!-- end single work -->                       
+                    
+                    <!-- single work: Audi -->
+                    <div class="col-md-4 col-sm-6 UXUI">
+                        <a href="portfolio_audi.html" class="portfolio_item">
+                            <img src="img/pf_audi/audi_thumb.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>AUDI Korea Mobile CRM App & Customer Apps</span>
+                                        <em>UX·UI</em>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end single work -->  
 
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 UXUI bi visual">
-                    <a href="portfolio_insole.html" class="portfolio_item">
-                        <img src="img/pf_insole/insole_thumb.jpg" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>STEP FIT: Customized orthotic insole</span>
-                                    <em>UX·UI / Visual</em>
+                    <!-- single work: Sai -->
+                    <div class="col-md-4 col-sm-6 UXUI">
+                        <a href="portfolio_sai_game.html" class="portfolio_item">
+                            <img src="img/pf_sai/sai_game_thumb.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Mobile Game Design</span>
+                                        <em>UX·UI / Visual</em>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
+                        </a>
+                    </div>
+                    <!-- end single work --> 
 
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 visual bi">
-                    <a href="portfolio_sai_game.html" class="portfolio_item">
-                        <img src="img/pf_sai/sai_game_thumb.jpg" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mobile Game Design</span>
-                                    <em>UX·UI / Visual</em>
+                    <!-- single work: H&M -->
+                    <div class="col-md-4 col-sm-6 UXUI">
+                        <a href="portfolio_hnm.html" class="portfolio_item">
+                            <img src="img/pf_hnm/hnm_thumb.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>H&M Website UI Design</span>
+                                        <em>UX·UI</em>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
+                    <!-- end single work -->
+
+                    <!-- single work: Logo Reveal 2D -->
+                    <div class="col-md-4 col-sm-6 motiongraphics">
+                        <a href="portfolio_logoreveal.html" class="portfolio_item">
+                            <img src="img/pf_boost-e/booste_thumb01.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Boost-e Logo Reveal(2D)</span>
+                                        <em>Motion Graphics</em>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end single work -->
+
+                    <!-- single work: Once Again -->
+                    <div class="col-md-4 col-sm-6 motiongraphics">
+                        <a href="portfolio_onceagain.html" class="portfolio_item">
+                            <img src="img/pf_beecycle/onceagain_thumb.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Once Again</span>
+                                        <em>Motion Graphics</em>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end single work -->
+
+                    <!-- single work: Untitled -->
+                    <div class="col-md-4 col-sm-6 motiongraphics">
+                        <a href="portfolio_untitled.html" class="portfolio_item">
+                            <img src="img/pf_untitled/untitled_thumb.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Untitled</span>
+                                        <em>Motion Graphics</em>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end single work -->
+
+                    <!-- single work: Booste -->
+                    <div class="col-md-4 col-sm-6 visual">
+                        <a href="portfolio_booste.html" class="portfolio_item">
+                            <img src="img/pf_boost-e/booste_thumb02.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>BOOST-E: New Energy Drink Brand Design</span>
+                                        <em>Visual</em>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end single work -->      
+
+                    <!-- single work: SAI Trailer -->
+                    <div class="col-md-4 col-sm-6 motiongraphics">
+                        <a href="portfolio_sai_trailer.html" class="portfolio_item">
+                            <img src="img/pf_sai/sai_trailer_thumb.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Mobile Game SA:I Trailer</span>
+                                        <em>Motion Graphics</em>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end single work -->
+
+                    <!-- single work: SAI Opening -->
+                    <div class="col-md-4 col-sm-6 motiongraphics">
+                        <a href="portfolio_sai_opening.html" class="portfolio_item">
+                            <img src="img/pf_sai/sai_opening_thumb.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Mobile Game SA:I Opening video</span>
+                                        <em>Motion Graphics</em>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end single work -->                 
+
+                    <!-- single work: Poster -->
+                    <div class="col-md-4 col-sm-6 visual">
+                        <a href="portfolio_poster.html" class="portfolio_item">
+                            <img src="img/pf_poster/poster_thumb.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Gone with the Wind: Movie Poster</span>
+                                        <em>Visual</em>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end single work --> 
+
+                    <!-- single work: Hardware -->
+                    <div class="col-md-4 col-sm-6 visual">
+                        <a href="portfolio_hardware.html" class="portfolio_item">
+                            <img src="img/pf_hardware/hardware_thumb.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Hardware</span>
+                                        <em>Visual</em>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end single work --> 
+
+                    <!-- single work: Sixsenses -->
+                    <div class="col-md-4 col-sm-6 visual">
+                        <a href="portfolio_sixsenses.html" class="portfolio_item">
+                            <img src="img/pf_sixsenses/sixsenses_thumb.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Six Senses: Photo Book</span>
+                                        <em>Visual</em>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end single work --> 
+
+                    <!-- single work: Iconbook -->
+                    <div class="col-md-4 col-sm-6 visual">
+                        <a href="portfolio_icon.html" class="portfolio_item">
+                            <img src="img/pf_icon/icon_thumb.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Icon Pack of INM in Seneca</span>
+                                        <em>Visual</em>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end single work --> 
+
+                    <!-- single work: Breakfast -->
+                    <div class="col-md-4 col-sm-6 visual">
+                        <a href="portfolio_breakfast.html" class="portfolio_item">
+                            <img src="img/pf_breakfast/breakfast_thumb.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Breakfast Scene 3D</span>
+                                        <em>Visual</em>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end single work --> 
+
+                    <!-- single work: Lowpoly -->
+                    <div class="col-md-4 col-sm-6 visual">
+                        <a href="portfolio_lowpoly.html" class="portfolio_item">
+                            <img src="img/pf_lowpoly/Lowpoly_thumb.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Low Poly Portrait</span>
+                                        <em>Visual</em>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end single work --> 
+
+                    <!-- single work: Monkey -->
+                    <!-- <div class="col-md-4 col-sm-6 visual">
+                        <a href="portfolio_monkey.html" class="portfolio_item">
+                            <img src="img/pf_monkey/monkey_thumb.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Monkey</span>
+                                        <em>Visual</em>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div> -->
+                    <!-- end single work -->
+                    
+                    <!-- single work: Familyrules -->
+                    <!-- <div class="col-md-4 col-sm-6 visual">
+                        <a href="portfolio_familyrules.html" class="portfolio_item">
+                            <img src="img/pf_familyrules/familyrules_thumb.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Family Rules</span>
+                                        <em>Visual</em>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div> -->
+                    <!-- end single work -->                     
+                    
+                    <!-- single work: Insole -->
+                    <div class="col-md-4 col-sm-6 UXUI visual">
+                        <a href="portfolio_insole.html" class="portfolio_item">
+                            <img src="img/pf_insole/insole_thumb.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>STEP FIT: Customized orthotic insole</span>
+                                        <em>UX·UI / Visual</em>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end single work -->        
+                    
+                    <!-- single work: Netflix -->
+                    <div class="col-md-4 col-sm-6 UXUI visual">
+                        <a href="portfolio_netflix.html" class="portfolio_item">
+                            <img src="img/pf_netflix/netflix_thumb.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Netflix New logo system & Campaign Creative Brief</span>
+                                        <em>UX·UI / Visual</em>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end single work -->     
+                
+                    <!-- single work: Emotion drawing -->
+                    <div class="col-md-4 col-sm-6 visual">
+                        <a href="portfolio_emotiondrawing.html" class="portfolio_item">
+                            <img src="img/pf_emotiondrawing/emotiondrawing_thumb.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Emotion Drawing</span>
+                                        <em>Visual</em>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end single work -->
+
+
+
+
                 </div>
-                <!-- end single work -->
+                <!-- end portfolio_container -->
             </div>
-            <!-- end portfolio_container -->
-            <div class="viewmore">
-                <a class= "btn-box" href="portfolio.html">View more works</a>
-            </div>
+            <!-- portfolio -->
         </div>
-        <!-- portfolio -->
+        <!-- end portfolio div -->
     </div>
-    <!-- end portfolio div -->
-
+    <!-- end main container -->
 
 
     <!-- footer -->
@@ -308,6 +596,7 @@
     <!-- back to top -->
     <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
     <!-- end back to top -->
+
 
 
 
