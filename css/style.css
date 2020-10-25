@@ -1666,6 +1666,15 @@ footer .box-social i:hover {
 
 .top-bar h1 {
     font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #000;
+    line-height: 50px;
+}
+
+.top-bar-about h1 {
+    font-family: 'Open Sans', sans-serif;
     font-size: 80px;
     text-transform: uppercase;
     font-weight: 800;
