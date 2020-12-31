@@ -21,7 +21,7 @@ $(window).load(function () {
         var selector = $(this).attr('data-filter');
 
          // 여기ㄹㅕ나
-        loaclStorage.setItem('filter', selector);
+        localStorage.setItem('filter', selector);
 
 
         $container.isotope({
