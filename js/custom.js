@@ -10,9 +10,24 @@ $(window).load(function () {
 
     //  isotope
     var $container = $('.portfolio_container');
-    $container.isotope({
-        filter: '.UXUI',
+    
+    let filterValue = localStorage.getItem('filter');
+    if(filterValue == null) {filterValue = '.UXUI';}
+    
+    $('.portfolio_filter .active').removeClass('active');
+    $('.portfolio_filter a').each(function(index, item){ 
+        if($(this).attr('data-filter')==filterValue){
+       $(this).addClass('active');
+        }
     });
+    
+    $container.isotope({
+                filter: filterValue,
+                animationOptions: {
+                    duration: 500,
+                    animationEngine: "jquery"
+                }
+            });
 
     $('.portfolio_filter a').click(function () {
         $('.portfolio_filter .active').removeClass('active');
@@ -20,7 +35,7 @@ $(window).load(function () {
 
         var selector = $(this).attr('data-filter');
 
-         // 여기ㄹㅕ나
+         // save history
         localStorage.setItem('filter', selector);
 
 
