@@ -45,15 +45,6 @@
     <div class="container-fluid">
         <!-- box-header -->
         <header class="box-header">
-            
-            <script type="application/javascript">
-                window.onpageshow = function(event) {
-                if (event.persisted || (window.performance && window.performance.navigation.type == 2)) {
-                alert("뒤로가기");
-                    }
-                }
-            </script>
-
             <div class="box-logo">
                 <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
             </div>
@@ -737,6 +728,17 @@
 
     <!--  custom script -->
     <script src="js/custom.js"></script>
+
+    <!--  history -->       
+    <script type="application/javascript">
+        $( document ).ready(function(event) {
+            if (event.persisted || (window.performance && window.performance.navigation.type == 2)) {
+
+            }else{
+                localStorage.removeItem('filter');
+            }
+        });
+    </script>
 
     
 
