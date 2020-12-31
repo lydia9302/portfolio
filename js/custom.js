@@ -19,6 +19,11 @@ $(window).load(function () {
         $(this).addClass('active');
 
         var selector = $(this).attr('data-filter');
+
+         // 여기ㄹㅕ나
+        loaclStorage.setItem('filter', selector);
+
+
         $container.isotope({
             filter: selector,
             animationOptions: {
@@ -28,6 +33,8 @@ $(window).load(function () {
         });
         return false;
     });
+
+    
 
     // back to top
     var offset = 300,
