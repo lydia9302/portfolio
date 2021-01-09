@@ -706,12 +706,16 @@ h5 {
     background-color: #ee2525;
 }
 
+.text-sincook-red {
+    color: #e72025;
+}
+
 .bg-sincook {
-    background-image: url("/img/pf_sincook/sincook_section1_bg.jpg");
-    /* height: 1400px; */
+    background-image: url("/img/pf_sincook/sincook_section1_bg.gif");
+    min-height: 800px;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* background-size: cover; */
 }
 
 .bg-sincook .brand {
@@ -735,101 +739,114 @@ h5 {
     margin-bottom: 80px;
 }
 
+#section-sincook .pf-title-sincook {
+    font-family: 'Jost', sans-serif;
+    font-size: 24pt;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#section-sincook h1 {
+    font-family:  'Jost', sans-serif;
+    font-size: 38pt;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+#section-sincook .smaller {
+    font-size: 30pt;
+}
+
+#section-sincook h2 {
+    font-family:  'Jost', sans-serif;
+    font-size: 30pt;
+    font-weight: 500;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+#section-sincook h3 {
+    font-family:  'Jost', sans-serif;
+    font-size: 20pt;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+#section-sincook h4 {
+    font-family:  'Jost', sans-serif;
+    font-size: 16pt;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+#section-sincook p {
+    font-family: 'Jost', sans-serif;
+    font-size: 14pt;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
 .bg-sincook-sec2 {
-    background-image: url("/img/pf_sincook/sincook_section2_bg.png");
-    background-position: center;
+    background-image: url("/img/pf_sincook/sincook_section2_bg.jpg");
+    background-position: top;
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: cover;
+    min-height: 1191px;
+    text-align: center;
+}
+
+.bg-sincook-sec2 img {
+    margin: 0 auto;
+}
+
+.bg-sincook-sec3 {
+    background-color: #fbfbfb;
+}
+
+.bg-sincook-sec3 img{
+    margin: 0 auto;
+}
+.bg-sincook-sec3 p{
+    margin: 0 auto;
+}
+
+.bg-sincook-sec4 {
+    background-color: #e9e9e9;
+}
+.bg-sincook-sec4 img{
+    margin: 0 auto;
+    width: 100%;
 }
 
 .bg-sincook-sec5 {
     background-image: url("/img/pf_sincook/sincook_section5_bg.png");
     background-position: center;
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: cover;
+}
+
+.bg-sincook-sec5 img{
+    margin: 0 auto;
+    width: 100%;
 }
 
 .bg-sincook-sec7 {
-    background-image: url("/img/pf_sincook/sincook_section7_bg.png");
+    background-image: url("/img/pf_sincook/sincook_brandguide_bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: cover;
 }
 
-.bg-sincook-sec9 {
-    background-image: url("/img/pf_sincook/sincook_section9_bg.jpg");
-    background-position: inherit;
-    background-repeat: no-repeat;
-    min-height: 450px;
-    /* background-size: cover; */
-}
-
-.bg-sincook-sec10 {
-    background-image: url("/img/pf_sincook/sincook_section10_bg.png");
-    background-position: inherit;
-    background-repeat: no-repeat;
-    /* min-height: 950px; */
-    /* background-size: cover; */
-}
-
-.bg-sincook-sec11 {
-    min-height: 800px;
-}
-
-.bg-sincook-sec13 {
+.bg-sincook-sec8 {
     background-color: #e4e3e3;
-}
-
-.bg-sincook-sec3-height {
-    min-height: 700px;
-}
-
-.bg-sincook-sec2 .pf-title {
-    font-family: 'Jost', sans-serif;
-    font-size: 30pt;
-    font-weight: bold;
-    margin-bottom: 40px;
-}
-
-.sincook-sec-subtitle {
-    font-size: 13pt;
-    font-family: 'Jost', sans-serif;
-    line-height: 1.4;
-    color: #10162b;
-}
-
-.sincook-mt {
-    padding: 100px;
-}
-
-.bg-darkgrey {
-    background-color: #35363a;
-}
-
-.bg-lightgrey {
-    background-color: #e9e9e9;
-}
-
-.bg-lightpink {
-    background-color: #f1ebeb;
-}
-
-.sincook-context {
-    font-size: 9pt;
-    font-family: 'Jost', sans-serif;
-    /* line-height: 1.4; */
-    /* color: #10162b; */
 }
 
 .sincook-font {
     font-family: 'Jost', sans-serif;
 }
 
-.bg-sincook-sec9 h1 {
-    text-align: left;
-    margin-left: 50px;
-    font-size: 40pt;
-}
 
 
 /* pf-Audi
